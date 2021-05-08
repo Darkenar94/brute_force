@@ -2,7 +2,7 @@
 from brute_lib import *
 import time
 
-file = open("C:\\Users\\Darkenar94\\Desktop\\brute_force (test)\\diz.txt", "r")
+file = open(os.path.join(os.getcwd(), "diz.txt"), "r")
 dizionario = file.read()
 file.close()
 
