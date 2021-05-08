@@ -1,10 +1,10 @@
 ****************************************************************
-#Cosa fa questo programma:
+# Cosa fa questo programma:
 ****************************************************************
 Il programma in questione genera delle parole 
 con il fine di trovare la password impostata di default.
 ****************************************************************
-#Funzionamento del programma:
+# Funzionamento del programma:
 ****************************************************************
 Il programma genera delle parole di una lunghezza compresa tra
 i 6 ed i 20 caratteri (con possibilità di modificarne i valori 
@@ -18,7 +18,7 @@ caratteri il valore verrà ripristinato a 6 ripetendo le
 operazioni effettuate fin quando non avrà generato la parola 
 corrispondente alla password impostata di default.
 ****************************************************************
-#Funzionamento per test:
+# Funzionamento per test:
 ****************************************************************
 il primo test che viene effettuato cerca di mischiare 
 in maniera totalmente casuale le parole contenute in un file 
