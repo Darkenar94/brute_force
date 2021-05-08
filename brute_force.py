@@ -1,6 +1,6 @@
 
 from brute_lib import *
-import time
+import time, os
 
 file = open(os.path.join(os.getcwd(), "diz.txt"), "r")
 dizionario = file.read()
