@@ -1,4 +1,4 @@
-#Cosa fa questo programma:
+##Cosa fa questo programma:
 
 Il programma in questione genera delle parole con il fine di trovare la password impostata di default.
 #
