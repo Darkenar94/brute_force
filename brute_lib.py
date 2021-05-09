@@ -1,8 +1,9 @@
 
-import random, os
+from os import system
+import random
 
 def ridimensiona_finestra():
-    os.system('mode con: cols=114 lines=26')
+    system('mode con: cols=114 lines=26')
 
 def mostra_interfaccia(password, tot_caratteri, parola):
     ridimensiona_finestra()
