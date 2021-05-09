@@ -7,7 +7,7 @@ def ridimensiona_finestra():
 def mostra_interfaccia(password, tot_caratteri, parola):
     ridimensiona_finestra()
     print("\n"*8)
-    print(" "*41 + "> " + parola)# in corso...\n")#ricerca in corso...\n")
+    print(" "*41 + "> " + parola)
     print(" "*44 + "+" + "-" *(tot_caratteri +2) + "+")
     print(" "*44 + "|", password + " "*(tot_caratteri - len(password)), "|")
     print(" "*44 + "+" + "-" *(tot_caratteri +2) + "+")
