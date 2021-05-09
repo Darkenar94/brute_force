@@ -19,19 +19,11 @@ def accesso(password):
 def pulisci(stringa):
     return stringa.split("\n")
 
-def aggiungi(pwd, parole_testate, caratteri, dizionario):
-    if not pwd in parole_testate:
-        parole_testate.append(pwd)
-    else:
-        pwd = ""
-        return test_casaccio(caratteri, dizionario, pwd, parole_testate)
-
-def test_casaccio(caratteri, dizionario, pwd, parole_testate):
+def test_casaccio(caratteri, dizionario, pwd):
     while not len(pwd) == caratteri:
         stringa = random.choice(dizionario)
         if not len(pwd) + len(stringa) > caratteri:
             pwd += stringa
-    aggiungi(pwd, parole_testate, caratteri, dizionario)
     return pwd
 
 def ottieni_parole(dizionario):
