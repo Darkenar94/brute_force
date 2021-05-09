@@ -7,13 +7,14 @@ Il programma genera delle parole di una lunghezza compresa tra
 i 6 ed i 20 caratteri (con possibilità di modificarne i valori 
 da codice) la lunghezza della parola che verrà generata è 
 inizialmente impostata a 6 caratteri cercando di generare un 
-totale di 100 parole per test ogni qual volta la lunghezza 
-della parola verrà incrementata al termine dei 100 loop 
-impostati di default (con possibilità di aumentarne il valore 
-da codice) al raggiungimento della lunghezza massima di 20
-caratteri il valore verrà ripristinato a 6 ripetendo le
-operazioni effettuate fin quando non avrà generato la parola 
-corrispondente alla password impostata di default.
+totale di 100 parole per il primo test e 600 per il secondo
+ogni qual volta la lunghezza della parola verrà incrementata 
+al termine dei 100 loop impostati di default (con possibilità 
+di aumentarne il valore da codice) al raggiungimento della 
+lunghezza massima di 20 caratteri il valore verrà 
+ripristinato a 6 ripetendo le operazioni effettuate fin 
+quando non avrà generato la parola corrispondente alla password 
+impostata di default.
 # 
 # Funzionamento per test:
 il primo test che viene effettuato cerca di mischiare 
