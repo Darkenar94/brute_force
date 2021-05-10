@@ -1,9 +1,9 @@
 
-******************************************************************************************************************************************************
+
 # COSA FA QUESTO PROGRAMMA:
 
 Il programma in questione genera delle parole con il fine di trovare la password impostata di default.
-******************************************************************************************************************************************************
+#
 # FUNZIONAMENTO DEL PROGRAMMA:
 
 Il programma genera delle parole di una lunghezza compresa tra i 6 ed i 20 caratteri (con possibilità di modificarne i valori da codice), 
@@ -12,7 +12,7 @@ e 600 per il secondo ogni qual volta la lunghezza della parola verrà incrementa
 (con possibilità di aumentarne il valore da codice). 
 Al raggiungimento della lunghezza massima di 20 caratteri il valore verrà ripristinato a 6 ripetendo le operazioni effettuate 
 fin quando non avrà generato la parola corrispondente alla password impostata di default.
-******************************************************************************************************************************************************
+#
 # FUNZIONAMENTO PER TEST:
 
 Il primo test che viene effettuato cerca di mischiare in maniera totalmente casuale le parole contenute in un file di testo, 
@@ -20,4 +20,4 @@ mentre il secondo esegue fondamentalmente la stessa operazione ma con un senso l
 Inoltre durante questa fase ha la possibilità di scegliere se utilizzare solo una parte della parola o la stessa ma per intero 
 e di impostare la prima lettera in maiuscolo o di impostare la parola scelta in minuscolo incrementando le possibilità di riuscita, 
 entrambi con il fine di trovare la password impostata di default.
-******************************************************************************************************************************************************
+
