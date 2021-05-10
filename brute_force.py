@@ -2,7 +2,7 @@
 from brute_lib import *
 import time, os
 
-file = open(os.path.join(os.getcwd(), "diz.txt"), "r")
+file = open(os.path.join(os.getcwd(), "dizionario.txt"), "r")
 dizionario = file.read()
 file.close()
 
